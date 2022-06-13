@@ -1,3 +1,30 @@
 .nav-wrapper {
-    color: pink;
+    background-color: rgb(142, 182, 138);
+}
+.page-footer {
+    background-color:rgb(142, 182, 138);
+}
+.login {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: flex-start;
+    
+}
+.login h2 {
+    max-width: 40%;
+    font-size: 75px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+#myForm {
+    width: 40%;
+    border: solid 6px black;
+    border-radius: 25px;
+    box-shadow: 0,0,10px rgb(138, 133, 133);
+    padding:25px;
+    margin: 90px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
